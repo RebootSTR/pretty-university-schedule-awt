@@ -7,6 +7,7 @@ OR
 
 If you want add it as dependency (gradle):
 
+```gradle
 repositories {
     maven { url 'https://jitpack.io' }
 }
@@ -14,3 +15,4 @@ repositories {
 dependencies {
     implementation 'com.github.RebootSTR:PrettyUniversityScheduler:1.4-beta'
 }
+```
