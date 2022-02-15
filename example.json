@@ -1,0 +1,143 @@
+{
+  "group_name": "ТЕСТОВОЕ РАСПИСАНИЕ",
+  "times": [
+    "8:10-9:45",
+	"9:55-11:30",
+	"11:40-13:15",
+	"13:35-15:10",
+	"15:20-16:55"
+  ],
+  "days": [
+    {
+      "number": 2,
+      "remote": false,
+      "lessons": [
+        {
+          "number": 1,
+          "both": {
+            "name": "РИСП (2.33-2)",
+            "type": "LAB",
+			"teacher": "Алышев. Ю. В."
+          }
+        },
+		{
+          "number": 2,
+          "both": {
+            "name": "ППИ (2.35-1)",
+            "type": "LAB",
+			"teacher": "Кудряшов С. И."
+          }
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "remote": true,
+      "lessons": [
+        {
+          "number": 1,
+          "both": {
+            "name": "РИСП",
+            "type": "LECTURE",
+			"teacher": "Алышев Ю. В."
+          }
+        },
+        {
+          "number": 2,
+          "both": {
+            "name": "РДУ",
+            "type": "LECTURE",
+			"teacher": "Сивков В. С."
+          }
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "remote": false,
+      "lessons": [
+        {
+          "number": 1,
+          "both": {
+            "name": "ПиМКС (2.35-1)",
+            "type": "LAB",
+			"teacher": "Елисеев А. А."
+          }
+        },
+        {
+          "number": 2,
+          "both": {
+            "name": "РДУ (2.35-1)",
+            "type": "LAB",
+			"teacher": "Сивков В. С."
+          }
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "remote": true,
+      "lessons": [
+        {
+          "number": 1,
+          "odd": {
+            "name": "ППИ",
+            "type": "LECTURE",
+			"teacher": "Коваленко Т. А."
+          },
+          "even": {
+            "name": "ПиМКСЕК",
+            "type": "LECTURE",
+			"teacher": "Вержаковская М. А."
+          }
+        },
+        {
+          "number": 2,
+          "both": {
+            "name": "ПиМКС",
+            "type": "LECTURE",
+			"teacher": "Тарасов В. Н."
+          }
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "remote": true,
+      "lessons": [
+        {
+          "number": 1,
+          "even": {
+            "name": "ПиМКС",
+            "type": "PRACTICE",
+			"teacher": "Елисеев А. А."
+          }
+        },
+        {
+          "number": 2,
+          "both": {
+            "name": "МП",
+            "type": "LAB",
+			"teacher": "Якупов Д.О."
+          }
+        },
+        {
+          "number": 3,
+          "both": {
+            "name": "Основы веб-разработки",
+            "type": "LAB",
+			"teacher": "Градинарь И. М."
+          }
+        },
+        {
+          "number": 4,
+          "both": {
+            "name": "Основы веб-разработки",
+            "type": "LECTURE",
+			"teacher": "Градинарь И. М."
+          }
+        }
+      ]
+    }
+  ]
+}
