@@ -186,6 +186,7 @@ class ScheduleDrawer(private val schedule: Schedule) {
 
     private fun drawLesson(lesson: Lesson, rect: Rectangle) {
         drawBorder(rect, SMALL_BORDER)
+        drawString(lesson.name, rect, color = lesson.getColor(), size = LESSON_FONT_SIZE)
         val strings = lesson.teacher.split(" ".toRegex(), 2)
         drawStringInCorner(strings[0], rect, color = teacherColor, size = TEACHER_FONT_SIZE)
         drawStringInCorner(
@@ -239,6 +240,7 @@ class ScheduleDrawer(private val schedule: Schedule) {
     ) {
         if (rotated) {
             drawRotatedTextWithBorder(text, rect, border, color)
+            return
         }
         if (border != 0) {
             drawBorder(rect, border)
