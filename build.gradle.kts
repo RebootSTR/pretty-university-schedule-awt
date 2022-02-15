@@ -1,8 +1,8 @@
 
-
 plugins {
     application
     kotlin("jvm") version "1.4.32"
+    maven
 }
 
 group = "rafikov"
@@ -10,6 +10,7 @@ version = "1.0-SNAPSHOT"
 
 repositories {
     mavenCentral()
+    maven ("https://jitpack.io")
 }
 
 dependencies {
