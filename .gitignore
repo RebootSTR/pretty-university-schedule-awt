@@ -14,8 +14,7 @@ gradle-app.setting
 # JDT-specific (Eclipse Java Development Tools)
 .classpath
 
-*.jar
-
 .idea
 *.png
 /РПИС-91.json
+/out/
