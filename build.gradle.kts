@@ -14,13 +14,13 @@ repositories {
 }
 
 dependencies {
-    implementation("com.google.code.gson:gson:2.8.9")
+    implementation("com.github.RebootSTR:pretty-university-schedule-core:v1.2.0")
 }
 
 application {
     mainClass.set("kotlin/Main.kt")
 }
 
-tasks.withType<org.jetbrains.kotlin.gradle.tasks.KotlinCompile>() {
+tasks.withType<org.jetbrains.kotlin.gradle.tasks.KotlinCompile> {
     kotlinOptions.jvmTarget = "1.8"
 }

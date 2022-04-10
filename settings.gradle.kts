@@ -1,3 +1,3 @@
 
-rootProject.name = "PrettyShedule"
+rootProject.name = "pretty-university-schedule-awt"
 
