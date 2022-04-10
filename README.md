@@ -45,4 +45,4 @@ allprojects {
 Also you can customize some colors and sizes in generated schedule. To do this you should create new implementation from `AwtDrawer` and override some values. 
 
 ## BulderExample
-You can find example for creatnig schedule with builder in `rafikov.prettyuniversityschedule.example.AwtExample.kt`
+You can find example for creatnig schedule with builder in [`rafikov.prettyuniversityschedule.example.AwtExample.kt`](https://github.com/RebootSTR/pretty-university-schedule-awt/blob/master/src/main/kotlin/rafikov/prettyuniversityschedule/example/AwtExample.kt)
