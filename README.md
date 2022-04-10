@@ -43,3 +43,6 @@ allprojects {
 
 ## Customize
 Also you can customize some colors and sizes in generated schedule. To do this you should create new implementation from `AwtDrawer` and override some values. 
+
+## BulderExample
+You can find example for creatnig schedule with builder in `rafikov.prettyuniversityschedule.example.AwtExample.kt`
