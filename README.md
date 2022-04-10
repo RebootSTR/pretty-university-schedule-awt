@@ -16,7 +16,7 @@ allprojects {
 }
   
  dependencies {
-	 implementation 'com.github.RebootSTR:pretty-university-schedule-awt:1.0'
+	 implementation 'com.github.RebootSTR:pretty-university-schedule-awt:Tag'
  }
 ```
 + Maven
@@ -31,7 +31,7 @@ allprojects {
 <dependency>
     <groupId>com.github.RebootSTR</groupId>
     <artifactId>pretty-university-schedule-awt</artifactId>
-    <version>1.0</version>
+    <version>Tag</version>
 </dependency>
 ```
 
